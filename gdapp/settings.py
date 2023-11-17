@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['olegmonk.beget.tech', 'www.olegmonk.beget.tech', '127.0.0.1']
 
 # Application definition
 
@@ -123,5 +123,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Google Drive API
 
 SCOPES = ['https://www.googleapis.com/auth/drive']
-SERVICE_ACCOUNT_FILE = 'secret_key.json'
+SERVICE_ACCOUNT_FILE = BASE_DIR / 'secret_key.json'
 FOLDER_ID = os.getenv('FOLDER_ID')  # ID папки для загрузок
