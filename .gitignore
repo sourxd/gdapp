@@ -1,0 +1,6 @@
+/venv/
+/env/
+.env
+/.idea/
+db.sqlite3
+secret_key.json
