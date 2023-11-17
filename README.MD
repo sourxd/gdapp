@@ -4,4 +4,4 @@
 Создает файл с данными параметрами на Google Drive.
 
 Ответ сервера на успешное создание файла вида:
-{"file_id": "1ouWKfPR20-jdsF_lGZgPMTlUqkVTzWCo"
+{"file_id": "1ouWKfPR20-jdsF_lGZgPMTlUqkVTzWCo"}
